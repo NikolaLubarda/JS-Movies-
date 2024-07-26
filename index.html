@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Prodavnica filmova</title>
+  </head>
+  <body>
+    <h1>BAZA FILMOVA</h1>
+         <hr style="color: red;"> 
+    <div class="container">
+      <div class="items">
+        <h2 class="naslov">Filmovi</h2>
+          <hr class="linija">
+        <div class="single-item">
+          <img src="img/Avengers.jfif">
+          <div class="si-content">
+            <h3>Avengers</h3>
+            <p class="price">18$</p>
+            <div class="actions">
+             <input type="number" name="quantity" value="0" min="0" max="3">
+             <button class="button" onclick="addToCart(this)">Dodaj</button> 
+            </div>
+          </div>
+
+          <div class="single-item">
+            <img src="img/Black Adam.jfif">
+            <div class="si-content">
+              <h3>Black Adam</h3>
+              <p class="price">15$</p>
+              <div class="actions">
+               <input type="number" name="quantity" value="0" min="0" max="3">
+               <button class="button" onclick="addToCart(this)">Dodaj</button> 
+              </div>
+            </div>
+
+            <div class="single-item">
+              <img src="img/Doctor Strange.jfif">
+              <div class="si-content">
+                <h3>Doctor Strange</h3>
+                <p class="price">22$</p>
+                <div class="actions">
+                 <input type="number" name="quantity" value="0" min="0" max="3">
+                 <button class="button" onclick="addToCart(this)">Dodaj</button> 
+                </div>
+              </div>
+
+              <div class="single-item">
+                <img src="img/Spider-Man.jfif">
+                <div class="si-content">
+                  <h3>Spider-Man</h3>
+                  <p class="price">12$</p>
+                  <div class="actions">
+                   <input type="number" name="quantity" value="0" min="0" max="3">
+                   <button class="button" onclick="addToCart(this)">Dodaj</button> 
+                  </div>
+                </div>
+
+        </div>
+      </div>
+    </div>
+    
+
+    </div>
+
+    <hr>
+
+    
+    
+    <script src="script.js"></script>
+    <div class="cart">
+      <h2>Korpa:</h2>
+  
+      <div class="cart-items"></div>
+      <div class="total"></div>
+  </body>
+  
+</html>
